@@ -8,20 +8,32 @@
 
 /* Begin PBXBuildFile section */
 		18AE06871CC4CBB50093A6D4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AE06861CC4CBB50093A6D4 /* AppDelegate.swift */; };
-		18AE06891CC4CBB50093A6D4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AE06881CC4CBB50093A6D4 /* ViewController.swift */; };
 		18AE068C1CC4CBB50093A6D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18AE068A1CC4CBB50093A6D4 /* Main.storyboard */; };
 		18AE068E1CC4CBB50093A6D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18AE068D1CC4CBB50093A6D4 /* Assets.xcassets */; };
 		18AE06911CC4CBB50093A6D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18AE068F1CC4CBB50093A6D4 /* LaunchScreen.storyboard */; };
+		18AE069B1CC4CE9B0093A6D4 /* ContactsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AE069A1CC4CE9B0093A6D4 /* ContactsTableViewController.swift */; };
+		18AE069D1CC4DD7A0093A6D4 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AE069C1CC4DD7A0093A6D4 /* CustomTableViewCell.swift */; };
+		18AE4A8A1CC53C8000F07B12 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AE4A891CC53C8000F07B12 /* DetailViewController.swift */; };
+		18AE4A8E1CC579BA00F07B12 /* ContactCustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AE4A8D1CC579BA00F07B12 /* ContactCustomTableViewCell.swift */; };
+		18AE4A961CC599C100F07B12 /* AddContactTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AE4A951CC599C100F07B12 /* AddContactTableViewController.swift */; };
+		18CAEF611CC631C8005EFA0E /* Contact.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 18CAEF5F1CC631C8005EFA0E /* Contact.xcdatamodeld */; };
+		18CAEF691CC6337F005EFA0E /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CAEF671CC6337F005EFA0E /* Contact.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		18AE06831CC4CBB50093A6D4 /* Contacts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Contacts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18AE06861CC4CBB50093A6D4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		18AE06881CC4CBB50093A6D4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		18AE068B1CC4CBB50093A6D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		18AE068D1CC4CBB50093A6D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18AE06901CC4CBB50093A6D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		18AE06921CC4CBB60093A6D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18AE069A1CC4CE9B0093A6D4 /* ContactsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactsTableViewController.swift; sourceTree = "<group>"; };
+		18AE069C1CC4DD7A0093A6D4 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		18AE4A891CC53C8000F07B12 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		18AE4A8D1CC579BA00F07B12 /* ContactCustomTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactCustomTableViewCell.swift; sourceTree = "<group>"; };
+		18AE4A951CC599C100F07B12 /* AddContactTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddContactTableViewController.swift; sourceTree = "<group>"; };
+		18CAEF601CC631C8005EFA0E /* Contact.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Contact.xcdatamodel; sourceTree = "<group>"; };
+		18CAEF671CC6337F005EFA0E /* Contact.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Contact.swift; path = ../Contact.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,8 +67,14 @@
 			isa = PBXGroup;
 			children = (
 				18AE06861CC4CBB50093A6D4 /* AppDelegate.swift */,
-				18AE06881CC4CBB50093A6D4 /* ViewController.swift */,
+				18CAEF5F1CC631C8005EFA0E /* Contact.xcdatamodeld */,
+				18AE4A891CC53C8000F07B12 /* DetailViewController.swift */,
+				18AE069A1CC4CE9B0093A6D4 /* ContactsTableViewController.swift */,
+				18AE4A951CC599C100F07B12 /* AddContactTableViewController.swift */,
+				18AE069C1CC4DD7A0093A6D4 /* CustomTableViewCell.swift */,
 				18AE068A1CC4CBB50093A6D4 /* Main.storyboard */,
+				18CAEF671CC6337F005EFA0E /* Contact.swift */,
+				18AE4A8D1CC579BA00F07B12 /* ContactCustomTableViewCell.swift */,
 				18AE068D1CC4CBB50093A6D4 /* Assets.xcassets */,
 				18AE068F1CC4CBB50093A6D4 /* LaunchScreen.storyboard */,
 				18AE06921CC4CBB60093A6D4 /* Info.plist */,
@@ -135,8 +153,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18AE06891CC4CBB50093A6D4 /* ViewController.swift in Sources */,
+				18CAEF691CC6337F005EFA0E /* Contact.swift in Sources */,
+				18CAEF611CC631C8005EFA0E /* Contact.xcdatamodeld in Sources */,
+				18AE4A8E1CC579BA00F07B12 /* ContactCustomTableViewCell.swift in Sources */,
+				18AE069D1CC4DD7A0093A6D4 /* CustomTableViewCell.swift in Sources */,
+				18AE069B1CC4CE9B0093A6D4 /* ContactsTableViewController.swift in Sources */,
 				18AE06871CC4CBB50093A6D4 /* AppDelegate.swift in Sources */,
+				18AE4A8A1CC53C8000F07B12 /* DetailViewController.swift in Sources */,
+				18AE4A961CC599C100F07B12 /* AddContactTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,8 +312,22 @@
 				18AE06971CC4CBB60093A6D4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		18CAEF5F1CC631C8005EFA0E /* Contact.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				18CAEF601CC631C8005EFA0E /* Contact.xcdatamodel */,
+			);
+			currentVersion = 18CAEF601CC631C8005EFA0E /* Contact.xcdatamodel */;
+			path = Contact.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 18AE067B1CC4CBB50093A6D4 /* Project object */;
 }
